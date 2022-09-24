@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.title {
+    text-align: right;
+    height: 800px;
+    color:#7D3C65;
+    
+}
+
+
+body {
+
+    font-family: 'Permanent Marker', sans-serif;
+    color:rgb(19, 19, 19);
+    background-image: url("https://styles.redditmedia.com/t5_12bm6i/styles/communityIcon_90q3axveg6b71.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 800px;
+}
+
+.container{
+    width: 2000px;
+    padding: 100px;
+    display: contents;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.container .card{
+    position: relative;
+    padding: 0px;
+    width: 900px;
+    background-color: #5C4187;
+    margin: 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.container .card img{
+    transition: 0.5s;
+}
+
+.container .card h2{
+    padding: 20px;
+    font-size: 2rem;
+}
+
+.container .card .content p{
+    padding: 20px;
+    color: rgb(20, 20, 20);
+    transition: 0.5s;
+}
+
+.container .card .content a{
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: black;
+    color:#fff;
+    border-radius: 40px;
+    text-decoration: 0.5s;
+    outline: none;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.container .card:hover{
+    background-color: #423C7D;
+    color:rgb(137, 40, 150);
+    margin-top: 30px;
+    box-shadow: 2px 20px 25px #5E3B70;
+    border-color: #814187
+}
